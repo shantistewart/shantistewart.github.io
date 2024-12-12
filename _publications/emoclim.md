@@ -15,6 +15,6 @@ pub_status: 'conference'
 citation: '@inproceedings{Stewart2024EmoCLIM,<br />
 title={Emotion-Aligned Contrastive Learning Between Images and Music},<br />
 author={Stewart, Shanti and Avramidis, Kleanthis and Feng, Tiantian and Narayanan, Shrikanth},<br />
-year={2024},<br />
-booktitle={International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}}'
+booktitle={International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},<br />
+year={2024} }'
 ---
