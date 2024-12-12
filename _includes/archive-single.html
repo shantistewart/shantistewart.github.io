@@ -99,14 +99,14 @@ function toggleblock(blockId)
         {% endfor %}
       {% endif %}
       <br>
+      {% if post.website %}
+      [ <span style="color:blue"><a href="{{ post.website }}">Website</a></span> ] 
+      {% endif %}
       {% if post.paperurl %}
-      <span style="color:blue"><a href="{{ post.paperurl }}">Paper</a></span>  / 
+      [ <span style="color:blue"><a href="{{ post.paperurl }}">Paper</a></span> ] 
       {% endif %}
       {% if post.code %}
-      <span style="color:blue"><a href="{{ post.code }}">Code</a></span>  / 
-      {% endif %}
-      {% if post.website %}
-      <span style="color:blue"><a href="{{ post.website }}">Website</a></span>  / 
+      [ <span style="color:blue"><a href="{{ post.code }}">Code</a></span> ] 
       {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
