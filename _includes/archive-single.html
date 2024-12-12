@@ -108,12 +108,6 @@ function toggleblock(blockId)
       {% if post.website %}
       <span style="color:blue"><a href="{{ post.website }}">Website</a></span>  / 
       {% endif %}
-      {% if post.excerpt %}
-      <span style="color:blue"><a href="javascript:void(0);" onclick="toggleblock('{{ post.abs_title }}');">Summary</a></span>  / 
-      {% endif %}
-      {% if post.citation %}
-      <span style="color:blue"><a href="javascript:void(0);" onclick="toggleblock('{{ post.bib_title }}');">BibTex</a></span>
-      {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
