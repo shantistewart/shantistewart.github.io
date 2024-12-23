@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shanti Yamazaki Stewart"
+title                    : "Shanti Stewart"
 title_separator          : "-"
-name                     : &name "Shanti Yamazaki Stewart"
+name                     : &name "Shanti Stewart"
 description              : &description "Recent MS grad from USC"
 url                      : https://shantistewart.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "shantistewart.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Shanti Yamazaki Stewart"
+  name             : "Shanti Stewart"
   pronouns         : # example: "she/her"  
   bio              : "Recent MS grad, USC"
   location         : # "Earth"
