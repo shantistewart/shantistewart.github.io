@@ -9,13 +9,6 @@ You can also find my papers on my <a href="https://scholar.google.com/citations?
 
 {% include base_path %}
 
-**Preprints**
-{% for post in site.publications reversed %}
-  {% if post.pub_status == 'preprint' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
 **Conference Publications**
 {% for post in site.publications reversed %}
   {% if post.pub_status == 'conference' %}
